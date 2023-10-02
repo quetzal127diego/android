@@ -146,6 +146,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:onClick="abrirSegundaActividad"
             android:text="intent_5">
 
         </Button>
@@ -165,6 +166,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:onClick="enviarDatos"
             android:text="intent_6">
 
         </Button>
@@ -185,6 +187,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:onClick="realizarLlamada"
             android:text="intent_7">
 
         </Button>
@@ -205,6 +208,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:onClick="enviarCorreo"
             android:text="intent_8">
 
         </Button>
