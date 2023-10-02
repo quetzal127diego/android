@@ -14,24 +14,15 @@
         android:text="@string/TextBienvenida"
         android:textSize="50dp" />
 
-    <Button
+    <TextView
+        android:id="@+id/countdown_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a la siguiente pagina"
-        android:id="@+id/btn1"
+        android:layout_centerInParent="true"
         android:layout_below="@id/txt1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ir a la siguiente pagina"
-        android:id="@+id/btn2"
-        android:layout_below="@id/btn1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        />
+        android:text="00:00"
+        android:textSize="36sp"
+        android:textColor="@android:color/black" />
 
 
 
